@@ -1,3 +1,2 @@
 repo = "kargv"
 library = "kargv"
-require = "./lib"

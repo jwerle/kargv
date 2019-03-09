@@ -2,7 +2,6 @@
   "name": "kargv",
   "version": "0.1.0",
   "description": "Minimal commmand line options parser inspired by @substack's minimist",
-  "main": "kargv.kt",
   "scripts": {
     "postinstall": "npm run build",
     "build": "konanc kargv.kt -p library -o kargv",
