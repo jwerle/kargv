@@ -1,0 +1,24 @@
+{
+  "name": "kargv",
+  "version": "0.0.1",
+  "description": "Minimal commmand line options parser inspired by @substack's minimist",
+  "main": "kargv.kt",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "konanc kargv.kt -p library -o kargv",
+    "test": "rm -f test.kexe && konanc test.kt -o test.kexe $(konanc-config -lr test.kc) && ./test.kexe"
+  },
+  "keywords": [
+    "kotlin",
+    "native",
+    "command",
+    "line",
+    "argv",
+    "parser"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@datkt/tape": "^0.7.0"
+  }
+}
