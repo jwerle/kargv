@@ -1,6 +1,6 @@
 {
   "name": "kargv",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Minimal commmand line options parser inspired by @substack's minimist",
   "main": "kargv.kt",
   "scripts": {
