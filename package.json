@@ -1,6 +1,6 @@
 {
   "name": "kargv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal commmand line options parser inspired by @substack's minimist",
   "scripts": {
     "postinstall": "npm run build",
